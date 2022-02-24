@@ -6,7 +6,7 @@ This project uses aws cdk java api to deploy the data mapper lite as an aws lamb
 1. Install [AWS CDK CLI](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
 2. [`cdk boostrap --profile YOUR_AWS_PROFILE`](https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html)
 3. Run ./buildAndDeploy.sh
-4. For the deployed Lambda function: EFS file system, Access Point and Local mount path needs to be configured
+4. For the deployed Lambda function: EFS file system, Access Point and Local mount path needs to be [`configured`](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/).
 5. The Local mount path needs to be /mnt/efs
 
 ## Useful commands
